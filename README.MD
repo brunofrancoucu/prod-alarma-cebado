@@ -1,12 +1,10 @@
 # Ruteo de alta frecuencia con coupling a GND Y PWR
 Par diferencial de alta frecuencia por multiples capas, respetando la impedancia el return path sera por PWR (debido a stack up intermedio de GND PWR y no GND GND), por ello utilizar capacitor en puntos de entrada (source) y salida (exit) (split boundary)
 
-(Stitching Capacitor)[https://www.protoexpress.com/blog/wp-content/uploads/2020/11/stitching-cap.png]
-
+[<img alt="Stitching Capacitor" width="40px" src="images/image.PNG" />](https://www.protoexpress.com/blog/wp-content/uploads/2020/11/stitching-cap.png)
 
 ## Stitching capacitor:
-ref: https://www.asset-intertech.com/wp-content/uploads/2020/05/6a01348365b3a6970c01b8d06c22f7970c-pi.jpg
-ref2: https://www.protoexpress.com/blog/wp-content/uploads/2020/05/28.png
+[ref1](https://www.asset-intertech.com/wp-content/uploads/2020/05/6a01348365b3a6970c01b8d06c22f7970c-pi.jpg), [ref2](https://www.protoexpress.com/blog/wp-content/uploads/2020/05/28.png)
 Valores normales para el stitching capacitor ronda los, 10nF and 100nF (src)[https://www.protoexpress.com/blog/best-high-speed-pcb-routing-practices/]
 Evitar: "If that plane is cut, the return current must detour—often radiating or coupling into other nets—and you’ll get reflections, EMI, and extra crosstalk" - gpt
 
@@ -14,7 +12,7 @@ Evitar: "If that plane is cut, the return current must detour—often radiating 
 ## Par diferencial:
 [screenshot]
 Z0: 90ohms +-15%
-w: εᵣ 4.6 7628 prepreg FR-4 glass-epoxy laminate (ref: https://jlcpcb.com/capabilities/pcb-capabilities)
+w: εᵣ 4.6 7628 prepreg FR-4 glass-epoxy laminate [ref](https://jlcpcb.com/capabilities/pcb-capabilities)
 h: 0.2mm
 Ancho pista: 0.202 mm - separacion pista recomendada: 0.062 mm, maxima: 0.329 mm
 
