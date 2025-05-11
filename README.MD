@@ -1,3 +1,5 @@
+![Int](img/bnr.png)
+
 # Ruteo de alta frecuencia con coupling a GND Y PWR
 Par diferencial de alta frecuencia por multiples capas, respetando la impedancia el return path sera por PWR (debido a stack up intermedio de GND PWR y no GND GND), por ello utilizar capacitor en puntos de entrada (source) y salida (exit) (split boundary)
 
