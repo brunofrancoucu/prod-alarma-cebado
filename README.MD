@@ -1,6 +1,7 @@
 # Ruteo de alta frecuencia con coupling a GND Y PWR
 Par diferencial de alta frecuencia por multiples capas, respetando la impedancia el return path sera por PWR (debido a stack up intermedio de GND PWR y no GND GND), por ello utilizar capacitor en puntos de entrada (source) y salida (exit) (split boundary)
 
+[Stitching Capacitor](img/stcap.png)
 [<img alt="Stitching Capacitor" width="40px" src="images/image.PNG" />](https://www.protoexpress.com/blog/wp-content/uploads/2020/11/stitching-cap.png)
 
 ## Stitching capacitor:
@@ -10,7 +11,7 @@ Evitar: "If that plane is cut, the return current must detour—often radiating 
 
 # Calculos:
 ## Par diferencial:
-[screenshot]
+[pardif](img/pardif.png)
 Z0: 90ohms +-15%
 w: εᵣ 4.6 7628 prepreg FR-4 glass-epoxy laminate [ref](https://jlcpcb.com/capabilities/pcb-capabilities)
 h: 0.2mm
