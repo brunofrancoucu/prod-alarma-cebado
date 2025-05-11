@@ -1,8 +1,8 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
-    "auto_track_width": true,
+    "active_layer_preset": "",
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffbf",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_5ffff5af",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "alarma_mates_v1.kicad_prl",
+    "filename": "queremate.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -91,18 +91,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91
+      294,
+      279,
+      173,
+      191,
+      181,
+      201,
+      202,
+      201,
+      173,
+      173,
+      173,
+      173
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

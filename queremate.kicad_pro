@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.6002,
-          "width": 0.5588
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.062,
+          "via_gap": 0.1,
+          "width": 0.202
         }
       ],
       "drc_exclusions": [],
@@ -188,7 +193,9 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        0.3,
+        0.5,
+        0.95
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -464,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "alarma_mates_v1.kicad_pro",
+    "filename": "queremate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -472,7 +479,7 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.062,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -533,16 +540,40 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         },
         {
           "group_by": true,
@@ -561,24 +592,12 @@
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -610,6 +629,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -624,8 +651,24 @@
   },
   "sheets": [
     [
-      "1da70657-983f-4f99-b6fc-516bbc0ac1f1",
+      "b7e46b49-ef9f-4f28-8032-5d189d1635e8",
       "Root"
+    ],
+    [
+      "e91b9587-39c5-4646-9688-60b72a61f716",
+      "CLOCK & AND LOGIC"
+    ],
+    [
+      "54125375-855e-441b-804b-5df8c1e95e85",
+      "Clock Source & Reset Logic"
+    ],
+    [
+      "3ec600a3-3a7c-4649-a4d5-3d47a7a9c447",
+      "Sound & Alarm"
+    ],
+    [
+      "e8b77128-18d9-44e8-a7db-c5581122a883",
+      "USB & Alimentacion"
     ]
   ],
   "text_variables": {}
