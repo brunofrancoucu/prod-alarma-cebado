@@ -34,3 +34,8 @@ Objetivo / desafio: mantener bajo cross talk con un coupling corto / cercano (us
 ### Otras alternativas:
 - GND temporal en PWR (capa 3), justo arriba de par diferencial en la 4ta capa (SIG).
 - Rutearlo por arriba.
+
+# TODO
+- Bateria Litio recargable
+- Entrada USB-C
+- Comunicacion puerto UART (notificacion escritorio)
