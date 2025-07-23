@@ -1,4 +1,5 @@
-*.kikad_sch-bak
+board/*.kikad_*-bak
+board/fp-info-cache
 *.tmp
 *.autosave
 *.kicad_prl
