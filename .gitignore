@@ -1,4 +1,4 @@
-*.bak
+*.kikad_*-bak
 *.tmp
 *.autosave
 *.kicad_prl
