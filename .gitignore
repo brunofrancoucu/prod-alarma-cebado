@@ -1,6 +1,8 @@
 board/*.kikad_*-bak
 board/fp-info-cache
 board/*.lck
+*.DS_Store
+
 *.tmp
 *.autosave
 *.kicad_prl
