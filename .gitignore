@@ -1,0 +1,7 @@
+*.bak
+*.tmp
+*.autosave
+*.kicad_prl
+*.net
+*.dcm
+*.log
