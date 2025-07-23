@@ -39,3 +39,10 @@ Objetivo / desafio: mantener bajo cross talk con un coupling corto / cercano (us
 - Bateria Litio recargable
 - Entrada USB-C
 - Comunicacion puerto UART (notificacion escritorio)
+
+## Gerbers
+`File > Export > Fabrication Outputs > Gerbers`
+1. `Generate Drill Files...` Gerber X2
+2. RUN DRC...
+3. Plot
+4. Verificar en `Gerber View`
