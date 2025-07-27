@@ -5,21 +5,125 @@
 	(uuid "b7e46b49-ef9f-4f28-8032-5d189d1635e8")
 	(paper "User" 139.7 101.6)
 	(title_block
-		(title "Esquematico Toma Mate")
+		(title "Esquematico Alarma Mate")
 		(date "2025-04-26")
-		(company "UCU")
-		(comment 1 "Toma mate")
+		(company "Universidad Catolica del Uruguay")
+		(comment 1 "Alarma cada 5 minutos")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "Tornillos PCB a Encapsulado (3.2 mm)\n"
+		(exclude_from_sim no)
+		(at 19.05 41.91 0)
+		(size 63.5 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "d7084c6f-b7e6-47d2-87b0-fc68777faae4")
+	)
 	(junction
-		(at 90.17 35.56)
+		(at 90.17 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c8bd3b1-18d0-4da9-9845-f2ca192761b8")
+		(uuid "323e9435-43b7-4e0c-947b-d07d1514c1b1")
 	)
 	(wire
 		(pts
-			(xy 46.99 33.02) (xy 57.15 33.02)
+			(xy 46.99 26.67) (xy 57.15 26.67)
 		)
 		(stroke
 			(width 0)
@@ -29,13 +133,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 38.1) (xy 57.15 38.1)
+			(xy 46.99 31.75) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a05b6d9-f70f-4bf9-bafc-18389afc9baf")
+	)
+	(wire
+		(pts
+			(xy 90.17 29.21) (xy 90.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0e1f75-7b17-4368-ac46-e1e50ce5d7a5")
 	)
 	(wire
 		(pts
@@ -59,17 +173,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 35.56) (xy 90.17 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc678cc9-eec0-491e-8e43-544333f30dd1")
-	)
-	(wire
-		(pts
-			(xy 90.17 44.45) (xy 90.17 35.56)
+			(xy 90.17 29.21) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -79,13 +183,141 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 35.56) (xy 90.17 35.56)
+			(xy 82.55 29.21) (xy 90.17 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb6d5896-b3e9-4975-8b05-cb10116f2726")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 57.15 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ee3b166-c56e-4ffa-8eae-b2804c76791a")
+		(property "Reference" "H2"
+			(at 59.69 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 59.69 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/b7e46b49-ef9f-4f28-8032-5d189d1635e8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9d6e3e2-d031-4c96-a9b5-857251cde713")
+		(property "Reference" "H1"
+			(at 34.29 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b7e46b49-ef9f-4f28-8032-5d189d1635e8"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 97.79 39.37)
@@ -140,7 +372,7 @@
 		)
 	)
 	(sheet
-		(at 19.05 27.94)
+		(at 19.05 21.59)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -155,7 +387,7 @@
 		)
 		(uuid "54125375-855e-441b-804b-5df8c1e95e85")
 		(property "Sheetname" "Clock & Reset"
-			(at 19.05 27.2284 0)
+			(at 19.05 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +396,7 @@
 			)
 		)
 		(property "Sheetfile" "clock.kicad_sch"
-			(at 19.05 43.7646 0)
+			(at 19.05 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,7 +405,7 @@
 			)
 		)
 		(pin "CLOCK" output
-			(at 46.99 33.02 0)
+			(at 46.99 26.67 0)
 			(uuid "823d0e6d-2484-4f7c-ac1d-5477489ee856")
 			(effects
 				(font
@@ -183,7 +415,7 @@
 			)
 		)
 		(pin "RESET" output
-			(at 46.99 38.1 0)
+			(at 46.99 31.75 0)
 			(uuid "5d7e9c71-25fd-4be2-a27d-331d7c4720c9")
 			(effects
 				(font
@@ -253,7 +485,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 27.94)
+		(at 57.15 21.59)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -270,7 +502,7 @@
 		)
 		(uuid "e91b9587-39c5-4646-9688-60b72a61f716")
 		(property "Sheetname" "Binary (Alarm)"
-			(at 57.15 27.2284 0)
+			(at 57.15 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "logic.kicad_sch"
-			(at 57.15 43.7646 0)
+			(at 57.15 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +520,7 @@
 			)
 		)
 		(pin "ALARM" output
-			(at 82.55 35.56 0)
+			(at 82.55 29.21 0)
 			(uuid "0e6752dd-e669-4f2f-b4f2-f6a31e81db60")
 			(effects
 				(font
@@ -298,7 +530,7 @@
 			)
 		)
 		(pin "CLOCK" input
-			(at 57.15 33.02 180)
+			(at 57.15 26.67 180)
 			(uuid "a6f849bc-0a47-4467-92cb-9829acd504ca")
 			(effects
 				(font
@@ -308,7 +540,7 @@
 			)
 		)
 		(pin "RESET" input
-			(at 57.15 38.1 180)
+			(at 57.15 31.75 180)
 			(uuid "43dc1105-7dbe-4690-8cb5-3cc13578c0ca")
 			(effects
 				(font
