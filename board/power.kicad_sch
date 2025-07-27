@@ -1391,16 +1391,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB_P\nUSB_N"
-		(exclude_from_sim no)
-		(at 54.61 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "97937c5c-63bb-4d22-a84a-92e51c860852")
-	)
 	(text_box "Stitching Capacitor"
 		(exclude_from_sim no)
 		(at 123.19 20.32 0)
@@ -1575,6 +1565,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e013ce2-36fc-4f97-9e09-15ad9ad63733")
+	)
+	(wire
+		(pts
 			(xy 48.26 45.72) (xy 48.26 25.4)
 		)
 		(stroke
@@ -1665,6 +1665,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 49.53) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf12880-d024-4151-9bd6-5a68810885ae")
+	)
+	(wire
+		(pts
 			(xy 83.82 71.12) (xy 86.36 71.12)
 		)
 		(stroke
@@ -1743,9 +1753,29 @@
 		)
 		(uuid "db375579-2fef-40d2-ae41-bb54f1440f8f")
 	)
+	(wire
+		(pts
+			(xy 57.15 35.56) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6afc169-8074-4963-bad6-4fff13191ecb")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 60.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed207a2c-ad86-42d0-8f20-b67638d21ee4")
+	)
 	(global_label "DT-"
 		(shape input)
-		(at 60.96 38.1 180)
+		(at 57.15 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1755,7 +1785,7 @@
 		)
 		(uuid "1f5233c7-496e-42f4-b051-67ab17e4d0b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.1648 38.1 0)
+			(at 50.3548 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1797,7 @@
 	)
 	(global_label "DT-"
 		(shape input)
-		(at 40.64 52.07 0)
+		(at 49.53 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1777,7 +1807,7 @@
 		)
 		(uuid "595bcef7-7087-4ad5-99a5-d8de66af359d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4352 52.07 0)
+			(at 56.3252 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1819,7 @@
 	)
 	(global_label "DT+"
 		(shape input)
-		(at 40.64 49.53 0)
+		(at 49.53 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1799,7 +1829,7 @@
 		)
 		(uuid "8a915d30-f7dc-4422-a217-dc22ef5bd511")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.4352 49.53 0)
+			(at 56.3252 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1841,7 @@
 	)
 	(global_label "DT+"
 		(shape input)
-		(at 60.96 35.56 180)
+		(at 57.15 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1821,7 +1851,7 @@
 		)
 		(uuid "c889e712-4a4b-4528-902a-d9bbafc70e30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.1648 35.56 0)
+			(at 50.3548 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,17 +1875,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 40.64 52.07 0)
+		(at 43.18 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0505c428-43eb-4e5f-b90e-0c6b0ac439a3")
-		(property "Netclass" "Vias"
-			(at 41.3385 49.53 0)
+		(property "Netclass" "USB"
+			(at 43.8785 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1894,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -132.08 -59.69 0)
+			(at -129.54 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1907,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 40.64 49.53 0)
+		(at 43.18 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1886,8 +1916,8 @@
 			(justify left bottom)
 		)
 		(uuid "c623572d-157d-48d4-911d-fb9cb36af5b6")
-		(property "Netclass" "Vias"
-			(at 41.3385 46.99 0)
+		(property "Netclass" "USB"
+			(at 43.8785 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1926,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -132.08 -62.23 0)
+			(at -129.54 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
