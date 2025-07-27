@@ -2,7 +2,8 @@ board/*.kikad_*-bak
 board/fp-info-cache
 board/*.lck
 board/board-backups
-
+board/_autosave*
+board/*.wbk
 *.DS_Store
 
 *.tmp
