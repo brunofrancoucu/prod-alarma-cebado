@@ -531,7 +531,7 @@
       "plot": "v1_2_stitching_capacitor/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "board.step",
       "svg": "",
       "vrml": ""
     },
