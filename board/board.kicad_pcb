@@ -6890,7 +6890,7 @@
 		(property "Reference" "SW4"
 			(at 2.8944 6.7204 0)
 			(layer "F.SilkS")
-			(uuid "734ba332-253a-405a-b7ec-229fd5a9d1c6")
+			(uuid "ca81922c-65d1-4967-9d13-c2f0d38bd93b")
 			(effects
 				(font
 					(size 1 1)
@@ -6901,7 +6901,7 @@
 		(property "Value" "SW_SPST"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "2f10e79f-484e-47da-8699-ac5be1985957")
+			(uuid "53394098-878b-44de-a6f1-03a0fe43da8b")
 			(effects
 				(font
 					(size 1 1)
@@ -6914,7 +6914,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ceba57ad-1b30-4580-85fe-d5e4abd31bb7")
+			(uuid "5f241957-eeb8-4e86-9644-b92920b9591a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6927,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "915e79f2-0465-4a21-bc6f-37c4940c4cb4")
+			(uuid "13d4e04f-9acc-4ae6-a5a2-81f77bce57e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7236,7 @@
 		(property "Reference" "U5"
 			(at 0 3.302 270)
 			(layer "F.SilkS")
-			(uuid "6c47ee31-608f-4c2f-aa7d-025232675d9b")
+			(uuid "4c43b63f-5c7d-463c-9c5a-bb7336a78fc4")
 			(effects
 				(font
 					(size 1 1)
@@ -7247,7 +7247,7 @@
 		(property "Value" "NE555D"
 			(at 0.943 0.048 180)
 			(layer "F.Fab")
-			(uuid "2097031c-583b-4b91-8a2d-1beada625563")
+			(uuid "b728eb7f-d7fa-49aa-8b8f-72d137bbdff5")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -7260,7 +7260,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bd985c3-c9b0-44ec-b6ed-0a96ec86da22")
+			(uuid "37bdab29-76c7-4223-96db-9d2f5efd25d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7272,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0dab1a3a-55fa-45a5-9775-b824d7677d89")
+			(uuid "5d2db4b7-bda0-4162-8085-adf12632ac37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11881,6 +11881,127 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SW1"
+		(at 72.2884 24.0284 0)
+		(layer "F.SilkS")
+		(uuid "2344cb51-7d96-45e5-8512-371e0ece6269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "U1"
+		(at 96.612 54.61 0)
+		(layer "F.SilkS")
+		(uuid "2503d0ab-7142-4e90-8b2a-98259f116c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "U4"
+		(at 84.425 53.848 0)
+		(layer "F.SilkS")
+		(uuid "2708a278-7024-47c6-9bb6-50fa2229cd0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "J2"
+		(at 117.54 68.4784 0)
+		(layer "F.SilkS")
+		(uuid "4753cd9b-6866-4e18-a4b2-2f65e7703a68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SW4"
+		(at 108.1024 92.0496 0)
+		(layer "F.SilkS")
+		(uuid "663461c6-3ebd-496d-9b4a-e59a4e8d2465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "U3"
+		(at 76.743 54.483 0)
+		(layer "F.SilkS")
+		(uuid "680bfedc-87e0-432a-95fa-08645a501db2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "U5"
+		(at 93.283 69.977 0)
+		(layer "F.SilkS")
+		(uuid "867bf436-2272-4e58-a68c-70c9d64c3361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SW2"
+		(at 33.7312 91.9988 0)
+		(layer "F.SilkS")
+		(uuid "9b0c3532-0b39-46f2-819c-f14e9a3a2c2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RV1"
+		(at 108.493 44.766 0)
+		(layer "F.SilkS")
+		(uuid "9c16c5fd-147b-4fc7-b8af-5c25cc01e247")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "U2"
+		(at 111.603 55.942 0)
+		(layer "F.SilkS")
+		(uuid "d1435853-cf26-4fe3-bde5-53e291092160")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "BZ1"
+		(at 71 68.5 0)
+		(layer "F.SilkS")
+		(uuid "d5589647-69d0-47da-833f-b559ce50e9cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Clock\n"
 		(at 109.128 61.403 0)
 		(layer "F.SilkS")
@@ -11892,6 +12013,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "RV2"
+		(at 108.33 81.91 0)
+		(layer "F.SilkS")
+		(uuid "fd763e23-a406-46ed-a3a9-e6bf7022941c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(segment
