@@ -1,4 +1,4 @@
-![Int](../assets/CAD.png)
+![Int](../assets/CAD.PNG)
 
 ## Consideraciones `housing.ipt`
 - Grosor 1.6 mm +-10% [4-layer PCB](https://www.pcbway.com/multi-layer-laminated-structure.html)
