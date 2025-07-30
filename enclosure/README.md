@@ -11,3 +11,6 @@
 - Altura desde PCB del `housing` 6.0 mm 
 - 2.0 mm enganche (riel) - 0.1 mm margen (impresion) - 0.2 mm push travel
 - `housing` inferior, 3.0 mm (hasta PCB) + 1.6 mm PCB
+
+## TODO
+-Invertir enganche `plate` con `housing` (no expone interior en derrame)
