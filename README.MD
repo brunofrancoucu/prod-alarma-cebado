@@ -13,3 +13,11 @@ Proceso de diseno placa conexiones electricas entre componentes, alineado de com
 ![Int](assets/BNR_CAD.png)
 Proceso de diseno del envolvente plastico
 [consideraciones](/enclosure/README.md#consideraciones-housingipt)
+
+# Producto Final
+![Foto](/assets/CAD.PNG)
+
+Feedback:
+- Contra-peso [return force](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/TS02-66-90-BK-260-SCR-D/15634305) (btn push)
+- USB-c
+- Bateria (Conexion a placa)
